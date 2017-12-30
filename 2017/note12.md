@@ -57,3 +57,23 @@ function fib(n){
 阅读：[WebSocket 探秘](https://segmentfault.com/a/1190000012319848)  
   
 阅读：[学习Less-看这篇就够了](https://segmentfault.com/a/1190000012360995#articleHeader11)
+
+## 2017.12.14
+- [前端跨域解决方案](https://segmentfault.com/a/1190000012256432)
+
+## 2017-12-30
+- [HTTP 2.0 协议详解](http://blog.csdn.net/zqjflash/article/details/50179235)  
+    1. 所有http请求都建立在一个TCP请求上，实现多路复用
+    2. 可以给请求添加优先级
+    3. 服务器主动推送 server push
+    4. HTTP2的头部会减小，从而减少流量传输
+- [关于跨域，你想知道的全在这里](https://zhuanlan.zhihu.com/p/25778815)
+- [Ajax 知识体系大梳理](https://juejin.im/post/58c883ecb123db005311861a?utm_source=gold_browser_extension)
+- [10 分钟理解 BFC 原理](https://zhuanlan.zhihu.com/p/25321647)  
+    1. 具有 BFC 特性的元素可以看作是隔离了的独立容器，容器里面的元素不会在布局上影响到外面的元素，并且 BFC 具有普通容器所没有的一些特性。
+    2. 只要元素满足下面任一条件即可触发 BFC 特性：
+        - body 根元素
+        - 浮动元素：float 除 none 以外的值
+        - 绝对定位元素：position (absolute、fixed)
+        - display 为 inline-block、table-cells、flex
+        - overflow 除了 visible 以外的值 (hidden、auto、scroll)
